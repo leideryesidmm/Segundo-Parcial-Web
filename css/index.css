@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document 
+ * author: @CleiverFossi
+ * Modificado por :
+ */
+
+.btn {
+	background: #66A5AD;
+	color: white;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: #07575B; /* Green */
+  color: white;
+}
+
+input{
+	-webkit-border-radius:5px;	-moz-border-radius:5px;border-radius:5px;
+	width: auto;
+}
+
+th,td,tr{
+
+}
+
+
+table{
+	text-align: center;
+	background:#63AAD0; 
+	overflow:hidden;
+	border-collapse:collapse; 
+	-webkit-border-radius:12px;	-moz-border-radius:12px;border-radius:12px; /* css3 */
+} 
+table th{
+	color:black;
+	text-align:center;
+	padding:10px 10px;
+	background-color:#63AAD0;
+	height:20px;
+}
+table tr:nth-child(even) {/* css3 */ 	
+	text-align: center;
+ 	color:#fff;
+	background:#63AAD0; 
+}
+table tr:nth-child(odd) {/* css3 */
+	text-align: center;
+	background: #fff;
+}
+table tr:hover{
+	color:#fff;
+	background-color:#397696;
+}
+table td{
+	text-align: center;
+	padding: 20px;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1{
+	margin-top: 20px;
+}
+
+#border{
+	margin-top: 60px;
+	border: 15px solid transparent;
+    padding: 10px;
+  	border-image: url("../img/borde.png") 15% round;
+
+}
+#bt{
+	margin-top: 30px;
+	text-align: center;
+}
+#tabla{
+	text-align: center;
+
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tabla2{
+	text-align: center;
+
+}
+#grafico{
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#encabezado{
+	text-align: left;
+	margin-left: 50px;
+	padding: 20px;
+	margin-right: 100px;
+}
+#encabezado img{
+float: right;
+width: 8%;
+}
+#foto2{
+	width: 500px;
+}
